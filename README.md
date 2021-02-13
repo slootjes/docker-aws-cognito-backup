@@ -3,9 +3,7 @@
 
 # AWS Cognito Backup
 
-Simple Docker wrapper that created a backup of a Cognito User Pool and uploads it so S3
- 
-https://github.com/mifi/cognito-backup
+Simple Docker wrapper using https://github.com/mifi/cognito-backup that created a backup of a Cognito User Pool and uploads it so S3.
 
 ## Requirements
 
