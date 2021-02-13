@@ -1,0 +1,16 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "s3:PutObject",
+        "cognito-idp:ListUsers"
+      ],
+      "Resource": [
+        "arn:aws:cognito-idp:{region}:{aws_account_id}:userpool/{pool_id}",
+        "arn:aws:s3:::{bucket_name}/*"
+      ]
+    }
+  ]
+}
